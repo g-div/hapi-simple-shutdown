@@ -1,0 +1,28 @@
+{
+  "name": "hapi-simple-shutdown",
+  "author": "g-div",
+  "version": "0.0.1",
+  "description": "A very simple plugin to shutdown your hapi server in order to use it with nodemon in development",
+  "devDependencies": {
+    "node-readme": "^0.1.9",
+    "babel": "^5.2.6"
+  },
+  "peerDependencies": {
+    "hapi": ">= 8.x.x"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "babel -s -d dist/ src/",
+    "postcompile": "npm run readme",
+    "readme": "node-readme",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:g-div/hapi-simple-shutdown.git"
+  },
+  "keywords": [
+    "hapi"
+  ],
+  "license": "MIT"
+}

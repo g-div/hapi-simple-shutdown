@@ -1,6 +1,6 @@
 # hapi-simple-shutdown
 
-[![npm](https://img.shields.io/npm/v/hapi-simple-shutdown.svg)](http://npmjs.org/package/g-div/hapi-simple-shutdown) [![travis-status](https://img.shields.io/travis/g-div/hapi-simple-shutdown.svg)](https://travis-ci.org/g-div/hapi-simple-shutdown)
+[![npm](https://img.shields.io/npm/v/hapi-simple-shutdown.svg)](http://npmjs.org/package/g-div/hapi-simple-shutdown)
 
 A very simple plugin to shutdown your hapi server in order to use it with nodemon in development
 
@@ -29,7 +29,7 @@ server.register(require('hapi-simple-shutdown'), function(err) {
 
 Package | Version | Dev
 --- |:---:|:---:
-[node-readme](https://www.npmjs.com/package/node-readme) | ^0.1.9 | ✖
+[node-readme](https://www.npmjs.com/package/node-readme) | ^0.1.9 | ✔
 [babel](https://www.npmjs.com/package/babel) | ^5.2.6 | ✔
 
 

@@ -22,7 +22,8 @@
     "url": "git@github.com:g-div/hapi-simple-shutdown.git"
   },
   "keywords": [
-    "hapi"
+    "hapi",
+    "shutdown"
   ],
   "license": "MIT"
 }

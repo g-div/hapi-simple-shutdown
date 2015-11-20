@@ -9,5 +9,5 @@ exports.register = (server, options, next) => {
 
 exports.register.attributes = {
 	connections: false,
-	pkg: require('./package.json')
+	pkg: require('../package.json')
 };

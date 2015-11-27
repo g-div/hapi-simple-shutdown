@@ -1,7 +1,7 @@
 {
   "name": "hapi-simple-shutdown",
   "author": "g-div",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "A very simple plugin to shutdown your hapi server in order to use it with nodemon in development",
   "devDependencies": {
     "node-readme": "^0.1.9",

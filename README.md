@@ -30,7 +30,7 @@ server.register(require('hapi-simple-shutdown'), function(err) {
 Package | Version | Dev
 --- |:---:|:---:
 [node-readme](https://www.npmjs.com/package/node-readme) | ^0.1.9 | ✔
-[babel](https://www.npmjs.com/package/babel) | ^5.2.6 | ✔
+[babel-cli](https://www.npmjs.com/package/babel-cli) | ^6.2.0 | ✔
 
 
 ## Author

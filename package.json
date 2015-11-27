@@ -5,7 +5,7 @@
   "description": "A very simple plugin to shutdown your hapi server in order to use it with nodemon in development",
   "devDependencies": {
     "node-readme": "^0.1.9",
-    "babel": "^5.2.6"
+    "babel-cli": "^6.2.0"
   },
   "peerDependencies": {
     "hapi": ">= 8.x.x"
